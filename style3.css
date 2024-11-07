@@ -1,0 +1,128 @@
+.grid-4-cols{
+    margin-top: 10rem;
+    padding: 4.8rem 30rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10rem;
+
+}
+.feature-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.feature-text{
+    line-height: 1.5;
+} 
+.feature-icon{
+    scale: 1.5;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    color: blueviolet;
+    background-color: #fcc2d7;
+}
+.cta-sect{
+    padding: 9.6rem;
+
+}
+.cta{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 1.5rem;
+    background-image: linear-gradient(to right bottom, #74c0fc, #99e9f2);
+    
+}
+.cta-text-box{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.cta-img-box{
+    background-image: url("Images/saber-eating.jpg");
+    background-size: cover;
+    
+}
+.cta-form{
+    line-height: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cta-form label{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1;
+}
+.cta-form input,
+.cta-form select{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    height: 5rem;
+    width: 30rem;
+    border-radius: 1rem;
+    background-color: #dbe4ff;
+}
+.cta-form button{
+    margin-bottom: 10rem;
+    width: 30rem;
+    height: 5rem;
+    margin-top: 2.5rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: #1864ab;
+}
+
+.footer-option a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 520;
+}
+.footer-option{
+    list-style: none;
+    line-height: 1.8;
+    
+}
+
+.grid-5-cols{
+    padding: 20rem;
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem 20rem 20rem;
+    gap: 5rem;
+}
+.footer-title{
+    margin-left: 46px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.social-media-icons{
+    scale: 1.5;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+.address{
+    font-size: 1.6rem;
+}
+.copyright{
+    font-size: 1.6rem;
+    margin-top: 4rem;
+}
+.footer-option a:link,
+.footer-option a:visited{
+    color: #495057;
+}    
+.footer-option a:hover,
+.footer-option a:active{
+    color: #3b5bdb;
+}
+.text-reset-icon{
+    position: relative;
+    right: 3.5rem;
+}
+.text-reset-icon:hover{
+    color: red;
+}
+svg{
+    scale: 0.8;
+}

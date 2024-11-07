@@ -1,0 +1,245 @@
+
+@media(max-width: 104em){
+    .pricing-op{
+        grid-template-columns: 1fr;
+        
+    }
+    
+
+}
+@media(max-width: 93em){
+    .pricing-op{
+        padding: 5rem 20rem;
+    }
+    .hero{
+        max-width: 130rem;
+    }
+    .header1{
+        font-size: 4.5rem;
+    }
+    .gallery{
+        grid-template-columns: 22rem 22rem;
+    }
+    .bt-price{
+        margin-left: 12rem;
+    }
+    .services-list{
+        margin-left: 5rem;
+    }
+    .grid-5-cols{
+        padding: 20rem;
+        display: grid;
+        grid-template-columns: 20rem 20rem 20rem 20rem 20rem;
+        gap: 2rem;
+    }
+    
+    
+}
+@media(max-width: 85em){ 
+    .pricing-op{
+        padding: 5rem 20rem;
+    }
+    .services-list{
+        margin-left: 2rem;
+    }
+    
+    .tag{
+        padding: 0.5rem 2rem;
+    }
+    .gallery{
+        grid-template-columns: 10rem 10rem;
+        gap: 1rem;
+    }
+    .food-img{
+        width: 10rem;
+        height: 10rem;
+    }
+    .cta-sect{
+        padding: 20rem 6rem;
+    }
+    .cta-img-box{
+        background-size: cover;
+     
+    }
+    .grid-5-cols{
+        padding: 20rem;
+        display: grid;
+        grid-template-columns: 20rem 20rem 20rem 20rem 20rem;
+        gap: 1.5rem;
+    }
+    .bt{
+        padding: 0.5rem 1rem;
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media(max-width: 75.5em){
+   
+    .pricing-op{
+        padding: 5rem 20rem;
+    }
+    .hero{
+        max-width: 80rem;
+        padding: 0 10rem;
+    }
+    .diet-title{
+        font-size: 3rem;
+    }
+    .diet-name{
+        font-size: 1.5rem;
+        margin-left: 0rem;
+        margin-right: 2rem;
+    }
+    .check{
+        scale: 1;
+        
+    }
+   
+    .services-list{
+        font-size: 1.5rem;
+        margin-right: 5rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        gap: 1.5rem;
+    }
+    .price-currency{
+        font-size: 3rem;
+    }
+    .rate{
+        font-size: 1.8rem;
+    }
+    .condition{
+        font-size: 1.5rem;
+    }
+    .grid-4-cols{
+        font-size: smaller;
+        gap: 8rem;
+    }
+    .feature-icon{
+        scale: 1.2;
+    }
+    .footer-title{
+        font-size: smaller;
+    }
+    .grid-5-cols{
+        padding: 20rem 30rem;
+        grid-template-columns: 15rem 15rem 12rem 12rem 12rem;
+        gap: 3.5rem;
+        
+    }
+    .footer-option a{
+        font-size: 1.5rem;
+    }
+    .address,
+    .copyright{
+        font-size: 1.2rem;
+    }
+    .email-id a{
+        font-size: 1rem;
+    }
+    .grid-5-cols{
+        padding: 6rem;
+    }
+    
+}
+
+@media(max-width: 59.5em){
+    
+    html{
+        font-size: 50%
+    }
+    .hero{
+        grid-template-columns: 1fr;
+        padding: 0 8rem;
+    }
+  
+    .delivered-meals{
+        margin-top: 3.2rem;
+        justify-content: center;
+    }
+    .meal-attributes{
+        font-size: smaller;
+    }
+    .tags{
+        font-size: smaller;
+        padding: 0.5rem 2rem;
+        margin-left: 0.5rem;
+    }
+  
+    .grid-5-cols{
+        padding: 2rem;
+    }
+}
+@media(max-width: 45em){
+    .how-it-works{
+        font-size: smaller;
+    }
+    .grid{
+       grid-template-columns: 1fr;
+       gap: 5rem; 
+    }
+    .testimonial-info{
+        grid-template-columns: 1fr;
+        font-size: 1.5rem;
+        
+    }
+    .testimonial{
+        padding: 5rem;
+    }
+    .pricing-op{
+        padding: 5rem;
+    }
+    .grid-4-cols{
+        grid-template-columns: 2fr 2fr;
+        padding: 10rem;
+    }
+    .cta-sect{
+        padding: 5rem;
+        font-size: smaller;
+    }
+    .cta-form input,
+    .cta-form select{
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        height: 3rem;
+        width: 15rem;
+        border-radius: 1rem;
+        background-color: #dbe4ff;
+   }
+   .cta-form button{
+        margin-bottom: 4rem;
+        width: 15rem;
+        height: 3rem;
+        margin-top: 2.5rem;
+        border-radius: 0.5rem;
+        color: white;
+        background-color: #1864ab;
+    }
+    .grid-5-cols{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .header1{
+        font-size: 5rem;
+    }
+    .header2{
+        font-size: 4rem;
+    }
+    .header3{
+        font-size: 3.5rem;
+    }
+
+}
+@media(max-width: 34em){
+  
+    .grid-2-cols{
+        grid-template-columns: 1fr;
+    }
+    .comments{
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    
+}

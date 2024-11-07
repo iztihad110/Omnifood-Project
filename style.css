@@ -1,0 +1,167 @@
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    font-size: large;
+    color: black;
+    
+}
+.hero-sect{
+    margin-bottom: 20px;
+}
+.hero{
+    max-width: 190rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: pink;
+}
+.header1{
+    font-size: 5.8rem;
+    font-weight: 800;
+}
+.hero-text-box{
+    font-size: 2rem;
+    margin-top: 11.5rem;
+    margin-left: 5rem;
+}
+.hero-text{
+    line-height: 1.6;
+    margin-bottom: 5rem;
+}
+.hero-img-box{
+    margin-left: 5rem;
+}
+.hero-img{
+    margin-top: 8rem;
+    width: 85%;
+}
+.hero-img2{
+    width: 85%;
+    
+}
+.bt{
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 20rem;
+    color: black
+}
+.bt:link,
+.bt:visited{
+    background-color: orange;
+
+}
+.bt:hover,
+.bt:active{
+    background-color: #fa5252;
+}
+.delivered-meals{
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.delivered-imgs img{
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+
+}
+.delivered-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.para1{
+    margin-bottom: 7rem;
+}
+.header{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 8rem;
+    
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 3.2rem;
+}
+.nav-sec:link,
+.nav-sec:visited{
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.nav-sec:hover,
+.nav-sec:active{
+    color: red;
+}
+.how-it-works{
+    padding: 9.6rem 0;
+}
+.sub-header{
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #ff922b;
+}
+.header2{
+    font-size: 5.5rem;
+    font-weight: 800;
+}
+.container{
+    margin-left: 8rem;
+}
+.step-num{
+    margin-top: 10rem;
+    font-size: 10rem;
+    font-weight: 1000;
+    color: #c5f6fa;
+}
+.header3{
+    font-size: 4.5rem;
+    font-weight: 750;
+}
+.step-text-box{
+    font-weight: 500;
+}
+.step-text{
+    font-size: 2rem;
+    line-height: 1.8;
+    margin-right: 2rem;
+}
+.grid-2-cols{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.step-img-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.step-img{
+    width: 30%;
+}
+.feature-header{
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 8rem;
+}
+.feat-logo{
+    width: 10%;
+    
+}
+.feat-img-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    

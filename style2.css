@@ -1,0 +1,159 @@
+.meal-sect{
+    padding: 9.6rem 0;
+}
+.meal-title{
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+    margin-left: 4rem;
+}
+.meal-attributes{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.meal-img{
+    width: 100%;
+}
+.grid-3-cols{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10rem;
+    margin-right: 8rem;
+}
+.tags{
+    margin-top: 3rem;
+    margin-left: 4rem;
+    display: flex;
+    gap: 0.8rem;
+}
+.tag{
+    padding: 1rem 4rem;
+    background-color: red;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+.meal{
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+.diet-list{
+    list-style: none;
+}
+.diets ul{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.diet-name{
+    margin-left: 1rem;
+}
+.check{
+    scale: 1.5;
+    color: #f76707;
+}
+.link-recipes{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    color: orange;
+
+}
+.user-img{
+    width: 8rem;
+    height: 8rem;
+    margin-left: 5rem;
+    border-radius: 50%;
+}
+.comments{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+}
+.testimonial-info{
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    gap: 5rem;
+}
+.user-name{
+    margin-left: 3rem;
+    color: blueviolet;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 22rem 22rem 22rem;
+    gap: 2rem;
+    
+    
+}
+.food-img{
+    width: 22rem;
+    height: 22rem;
+}
+.testimonial-sect{
+    background-color: pink;
+}
+.testimonial{
+    padding: 9.6rem;
+    
+}
+.user-comments{
+    line-height: 1.8;
+
+}
+.pricing{
+    padding: 9.6rem;
+}
+.pricing-op{
+    padding: 9.6rem 30rem;
+    gap: 6.4rem;
+}
+.services-list{
+    list-style: none;
+}
+.services-list{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.price-type,
+.price-currency,
+.rate{
+    text-align: center;
+}
+.price-type{
+    font-weight: 900;
+    color: red;
+}
+.price-currency{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.cross{
+    color: orange;
+    scale: 1.5;
+}
+.bt-price{  
+    margin-left: 20rem;
+    
+}
+.services-list{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+}
+.starter,
+.complete{
+    padding: 10rem 0; 
+    box-shadow: 0 2rem 4.8rem #fcc2d7;
+}
+.complete{
+    background-color: #fcc2d7;
+}
+.service{
+    margin-left: 1rem;
+}
+.condition{
+    text-align: center;
+    margin-bottom: 5rem;
+}
